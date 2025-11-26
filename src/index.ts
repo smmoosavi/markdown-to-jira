@@ -1,4 +1,6 @@
 import { convert, html } from './convert'
+import 'highlight.js/styles/github-dark.css'
+
 declare const document: {
   getElementById(id: string): {
     value: string
